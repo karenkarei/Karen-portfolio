@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./images/jet.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+}
+
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+
+.logo{
+    color: #706a6a;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 2px;
+    float: left;
+    padding-top: 10px;
+    m
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+    text-size-adjust: 500px;
+
+}
+
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(141, 129, 129);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #66706e;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: #5e5a57;
+    margin-top: 13px;
+    color: rgb(99, 87, 87);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5ppx;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #9c9894;
+    border: 5px solid #777070;
+    margin-top: 15px;
+    color: rgb(155, 136, 136);
+    font-size: 17px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline-style: invert;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.25px;
+    line-height: 34px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    margin-top: 15%;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+.content H2{
+    color: #66625f;
+}
+
+.content .css{
+    width: 160px;
+    height: 35px;
+    background: white-space;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.content .css a{
+    text-decoration-line: underline;
+    color: #000;
+    transition: .3s ease;
+}
+
+.css:hover{
+    background-color: #66625f;
+}
+
+
+.content span{
+    color: rgb(119, 104, 117);
+    font-size: 60px;
+
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%);
+    position: absolute;
+    top: -20px;
+    left: 900px;
+    border-radius: 11px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(119, 107, 107);
+    font-size: 23px;
+    background-color: rgb(141, 121, 143);
+    border-radius: 15px;
+    margin: 3px;
+    padding: 9px;
+    
+}
+ 
+.form input{
+    width: 240px;
+    height: 37px;
+    background: transparent;
+    border-bottom: 2px solid rgb(117, 104, 116);
+    border-top: rgb(148, 150, 136);
+    border-right: #6b6969;
+    border-left: rgb(113, 121, 114);
+    color: rgb(223, 208, 208);
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 33px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(245, 245, 245, 0.836);
+    font-family: Arial;
+}
+
+.btnn{
+    width: 200px;
+    height: 35px;
+    background: rgb(143, 146, 142);
+    border: 3px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 12.5px;
+    cursor: pointer;
+    color: rgb(90, 85, 85);
+}
+
+.btnn:hover{
+    background: #686563;
+    color: rgb(94, 87, 87);
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #6d6865;
+}
+
+.yourlogs{
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 1px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+    color: #3b3733;
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(68, 64, 64);
+    padding: 45px;
+    font-size: 1.75rem;
+}
